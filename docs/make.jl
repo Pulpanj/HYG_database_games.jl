@@ -23,7 +23,5 @@ makedocs(
 			   ])
 =#
 
-deploydocs(;
-    repo = "https://github.com/Pulpanj/HYG_database_games.jl",
-)
+deploydocs(; repo = "github.com/Pulpanj/HYG_database_games.jl.git",)
 JULIA_DEBUG = Documenter
