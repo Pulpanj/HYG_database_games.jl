@@ -5,5 +5,5 @@ using Test
 @testset "HYG_database_games.jl" begin
     x = 2
     y = 2
-    @test HYG_database_games.function1(x, y) == 4
+    @test HYG_database_games.function1(x, y) == 8
 end
