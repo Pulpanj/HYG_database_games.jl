@@ -1,0 +1,13 @@
+name = "HYG_database_games"
+uuid = "6c44b792-21ae-444f-b625-10043ca0fed6"
+authors = ["Jarda Pulpan"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
