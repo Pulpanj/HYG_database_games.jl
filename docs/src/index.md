@@ -7,7 +7,7 @@
 function1
 ```
 # Function Documentation
-<!-- ```@autodocs
+```@autodocs
 Modules = [HYG_database_games]
 Order   = [:function, :type]
-``` -->
+```
