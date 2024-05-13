@@ -1,3 +1,4 @@
+#=
 push!(LOAD_PATH, "../src/")
 using Documenter
 using HYG_database_games
@@ -13,7 +14,7 @@ makedocs(
     authors = "JPS s.r.o.",
     # doctest = true
 )
-
+=#
 #=makedocs(
 		 sitename = "VegaGraphs.jl",
 		#  modules  = [VegaGraphs],
@@ -23,5 +24,5 @@ makedocs(
 			   ])
 =#
 
-deploydocs(; repo = "github.com/Pulpanj/HYG_database_games.jl.git",)
-JULIA_DEBUG = Documenter
+#deploydocs(; repo = "github.com/Pulpanj/HYG_database_games.jl.git",)
+#JULIA_DEBUG = Documenter
