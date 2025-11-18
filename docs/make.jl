@@ -1,6 +1,6 @@
 #=
 push!(LOAD_PATH, "../src/")
-using Documenter
+using Documenter 
 using HYG_database_games
 
 makedocs(
